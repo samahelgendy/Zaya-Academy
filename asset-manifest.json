@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Zaya-Academy/static/css/main.1291b078.css",
-    "main.js": "/Zaya-Academy/static/js/main.88615429.js",
+    "main.js": "/Zaya-Academy/static/js/main.aa64849d.js",
     "static/media/zaya.webp": "/Zaya-Academy/static/media/zaya.c9f88401dc4a350735fb.webp",
     "static/media/first.webp": "/Zaya-Academy/static/media/first.ed2c39eaf45e414ee1ac.webp",
     "static/media/digital.jpg": "/Zaya-Academy/static/media/digital.8f8562100d6b1f95b823.jpg",
@@ -24,10 +24,10 @@
     "static/media/apple_pay.webp": "/Zaya-Academy/static/media/apple_pay.b73ab6e90ba02b79c04c.webp",
     "index.html": "/Zaya-Academy/index.html",
     "main.1291b078.css.map": "/Zaya-Academy/static/css/main.1291b078.css.map",
-    "main.88615429.js.map": "/Zaya-Academy/static/js/main.88615429.js.map"
+    "main.aa64849d.js.map": "/Zaya-Academy/static/js/main.aa64849d.js.map"
   },
   "entrypoints": [
     "static/css/main.1291b078.css",
-    "static/js/main.88615429.js"
+    "static/js/main.aa64849d.js"
   ]
 }
