@@ -1,0 +1,9 @@
+@media (max-width:768px) {
+    .notif_content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-content{
+        margin-top: 20px;
+    }
+}

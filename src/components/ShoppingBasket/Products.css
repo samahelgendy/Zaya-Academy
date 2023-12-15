@@ -1,0 +1,33 @@
+.productar , .producten{
+    width: 620px;
+}
+@media (max-width:992px) {
+    .sessCarts{
+      flex-direction: column;
+    }
+    .productar , .producten , .product , .discount{
+        min-width: 100% !important;
+    }
+    .active-discount{
+        position: relative !important;
+       
+    }
+
+}
+@media (max-width:776px) {
+    .sesssele , .sesssele_ar{
+        font-size: 12px;
+    }
+
+}
+.active-note{
+    opacity: 1 !important;
+    height: 96px !important;
+    transition: 0.5s;
+}
+.active-discount{
+    position: fixed;
+    left: 0;
+    top:100px;
+}
+

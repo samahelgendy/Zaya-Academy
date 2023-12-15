@@ -1,0 +1,8 @@
+@media (max-width:778px) {
+    .dataInfo{
+        margin-top: 50px;
+    }
+}
+.btnSave:hover{
+   background-color: #54026f93 !important;
+}

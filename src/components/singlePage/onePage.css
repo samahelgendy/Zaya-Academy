@@ -1,0 +1,59 @@
+
+.swiper{
+    width:45%;
+    height: 300px;
+    margin: 0 !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after  {
+    font-size: 20px;
+    color: darkgray;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 20px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 20px;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+ 
+}
+@media(max-width:992px){
+    .onePage{
+       flex-direction: column; 
+    }
+    .swiper{
+        width:100% !important;
+
+    }
+    .conPage{
+        width:100% !important;
+        margin-top: 30px;
+    }
+}
+@media(max-width:478px){
+    .conPage{
+        min-width: 100%;
+    }
+    .question1{
+        font-size: 10px !important;
+    }
+    .pricePage{
+        margin-bottom: 10px;
+    }
+    .btnplus{
+        font-size: 20px;
+ 
+    }
+   .priceCon{
+    display: none !important;
+   }
+   .buynow{
+    justify-content: space-between;
+    width: 100%;
+   }
+    
+}

@@ -1,0 +1,65 @@
+
+.Footer{
+    background-image: url(../../assets/FOOTER.jpg);
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    bottom: 0;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 70px;
+    left: 0;
+}
+.backtoTop{
+    transition: 0.5s;
+}
+.backtoTop:hover .up{
+    animation:up 1s infinite ease;
+    color: #3f0153 ;
+}
+@keyframes up {
+    from{
+        transform:translateY(-10px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.inputemail{
+    border-start-start-radius: 6px;
+    border-end-start-radius: 6px;
+}
+.btnemail{
+     border-start-end-radius: 6px;
+    border-end-end-radius: 6px;
+   
+}
+@media (max-width:778px) {
+    .confooter{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .textcon{
+        margin-bottom: 20px;
+    }
+    .footLogo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footImg_1 , .footImg_2 , .footImg_3{
+        width: 100% !important;
+    }
+    .footer-2{
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+
+    }
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-float-btn-default .ant-float-btn-body {
+    background-color: #3f0153 !important;
+}
+:where(.css-dev-only-do-not-override-18iikkb).ant-float-btn-default .ant-float-btn-body .ant-float-btn-content .ant-float-btn-icon {
+    color: white !important;
+}

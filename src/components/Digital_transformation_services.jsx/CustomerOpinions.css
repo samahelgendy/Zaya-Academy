@@ -1,0 +1,41 @@
+.swiper{
+    width: 100% !important;
+    padding-top: 60px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 20px;
+    color: #9e58b586;
+}
+.swiper-button-prev:hover:after, .swiper-button-next:hover:after {
+    color: #451256;
+    font-weight: bold;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: #9e58b586;
+}
+.swiper-pagination-clickable:hover .swiper-pagination-bullet:hover {
+    background-color: #451256;
+}
+
+.swiperslide:hover{
+    box-shadow: 4px 4px 4px 4px rgba(187, 185, 185, 0.552);
+    border-radius: 6px;
+}
+
+.quote{
+    position: absolute;
+    left: 30px;
+    transform: translateY(-50%);
+    top: 30px;
+    font-family: sallaicons!important;
+    font-style: normal;
+    opacity: .1;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: rgb(125, 124, 124);
+}
+
+
+
+

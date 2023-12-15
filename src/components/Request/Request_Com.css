@@ -1,0 +1,9 @@
+@media (max-width:768px) {
+    .request_content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-con{
+        margin-top: 20px;
+    }
+}
